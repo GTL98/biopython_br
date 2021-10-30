@@ -14,3 +14,17 @@ O Biopython pode ser instalado diretamente pelo terminal do sistema operacional 
     pip install biopython
     pip install --upgrade biopython
     pip uninstall bioython
+
+### Requerimentos Python
+##
+Biopython possui foi testato e possui suporte para as seguintes versões do Python:
+- Python 3.7, 3.8 e 3.9 (saiba mais em: http://www.python.org)
+-  PyPy3.7 v7.3.5 ou superior (saiba mais em http://www.pypy.org)
+
+### Dependências Opcionais
+##
+O Biopython requer que a biblioteca NumPy esteja instalada (siaba mais em: http://www.numpy.org), por conta disso ela é instalada automaticamente com o Biopython quando usado comando **pip**.
+
+Algumas dependências são opcionais para usar com o Biopython que poderão ser instaladas posteriormente se necessário:
+
+- **ReportLab** (https://www.reportlab.com/): Essa biblioteca é usada somente em `Bio.Graphics`, por conta disso ela pode ser instalada posteriormente.
