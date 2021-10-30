@@ -28,3 +28,17 @@ O Biopython requer que a biblioteca NumPy esteja instalada (siaba mais em: http:
 Algumas dependências são opcionais para usar com o Biopython que poderão ser instaladas posteriormente se necessário:
 
 - **ReportLab** (https://www.reportlab.com/): Essa biblioteca é usada somente em `Bio.Graphics`, por conta disso ela pode ser instalada posteriormente.
+- **Matplotlib** (http://matplotlib.org/): Usada em `Bio.Phylo` para a visualização das árvores filogenéticas.
+- **NetworkX** (https://networkx.org/) e **PyGraphviz** (https://pygraphviz.github.io/) ou **pydot** (https://github.com/pydot/pydot): Essas bibliotecas são usadas em funções específicas em `Bio.Phylo`.
+- **RDFLib** (https://github.com/RDFLib/rdflib): Usada no analisador CDAO em `Bio.Phylo`.
+- **psycopg2** (https://www.psycopg.org/) ou **PyGreSQL** (http://www.pygresql.org/): Essas bibliotecas com o `BioSQL` para acessar a base de dados PostgreSQL.
+- **MySQL Conector/Python** (https://dev.mysql.com/downloads/connector/python/): Usada pelo `BioSQL` para acessar a base de dados MySQL. É suportado também pelo PyPy.
+- **mysqlclient** (https://github.com/PyMySQL/mysqlclient): Esse é um fork do antigo MySQLdb e é usado pelo `BioSQL` para acessar a base de dados MySQL. É suportado também pelo PyPy.
+
+Além das bibliotecas, existe uma série de ferramentas úteis que podem ser instaladas, como o NCBI, BLAST, EMBOSS ou ClustalW.
+
+### Documentação
+##
+Se você deseja analisar a documentação de um módulo específíco, basta acessar https://biopython.org/wiki/Documentation. Caso queria algo mais detalhado, leia o documento **Biopython Tutorial and Cookbook**:
+- HTML - http://biopython.org/DIST/docs/tutorial/Tutorial.html
+- PDF - http://biopython.org/DIST/docs/tutorial/Tutorial.pdf
