@@ -42,3 +42,10 @@ Além das bibliotecas, existe uma série de ferramentas úteis que podem ser ins
 Se você deseja analisar a documentação de um módulo específíco, basta acessar https://biopython.org/wiki/Documentation. Caso queria algo mais detalhado, leia o documento **Biopython Tutorial and Cookbook**:
 - HTML - http://biopython.org/DIST/docs/tutorial/Tutorial.html
 - PDF - http://biopython.org/DIST/docs/tutorial/Tutorial.pdf
+
+Se você quiser uma introdução rápida ao Biopython, recomendo que veja o E-book feito pelo pessoal da Universidade Federal de Minas Gerais (UFMG) do setor de Bioinformática:
+- E-book: https://www.researchgate.net/publication/344756626_Introducao_a_Programacao_para_Bioinformatica_com_Biopython
+
+### Origem da tradução
+## 
+Resolvi realizar a tradução do Cookbook do Biopython para deixar mais acessível a documentação, uma vez que não há uma documentação completa em português para o Biopython, além de ajudar os desenvolvedores que usam essa biblioteca.
